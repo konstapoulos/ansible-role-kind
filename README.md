@@ -7,7 +7,7 @@ An [ansible role](https://galaxy.ansible.com/nephelaiio/kind) to install and des
 
 ## Role Variables
 
-With default values role will instanciate a 4 node cluster using latest kind release and image. The following is the list of user serviceable variables
+With default values role will instantiate a 4 node cluster using latest kind release and image. The following is the list of user serviceable variables
 
 | Parameter              |        Default | Type    | Required  | Description                                                                        |
 | :--------------------- | -------------: | :------ | :-------- | ---------------------------------------------------------------------------------- |
@@ -60,7 +60,7 @@ The below python collections are needed on the host that executes this module:
 
 Please make sure your environment has [docker](https://www.docker.com) installed; then test the role from the project root using the following commands
 
-- ` poetry instasll`
+- `poetry install`
 - `poetry run molecule test`
 
 ## License
